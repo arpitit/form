@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Arpit</title>
+    <style>
+        div#form_wrap{
+            border:;
+            display: block;
+            text-align: center;
+            margin-top:50px;
+            margin-left: 480px;
+            width: 400px;
+            height: 280px;
+       background-image: url(images/transf.png);
+            box-shadow:5px 10px 10px rgb(255, 248, 234);
+            color:white;
+            border-radius: 0px 50px;
+            font-weight:lighter;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        form{
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 20px;
+        }
+        body{
+
+            background: url(images/bagk.jpg);
+            background-position: center;
+    
+         
+        }
+
+        input[type=text]{
+      border: 3px solid white;
+      border-radius:4px;
+      color:#f70700;
+        }
+
+        input[type=reset]{
+      border: 3px solid white;
+      color:#f70700;
+      border-radius:4px;
+      width: 100px;
+      font-weight: bold;
+        }
+     
+
+        input[type=submit]{
+      border: 3px solid white;
+      color:#f70700;
+      border-radius:4px;
+      width: 100px;
+      font-weight: bold;
+        }
+       
+        input[type=file]{
+      border: 3px solid white;
+      color:white;
+      border-radius:4px;
+      width: 200px;
+        }
+
+        input[type=tel]{
+      border: 3px solid white;
+      border-radius:4px;
+      color:#f70700;
+        }
+  
+        textarea{
+      border: 3px solid white;
+      border-radius:4px;
+      color:#f70700;
+        }
+
+        .cap{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            margin-left: 422px;
+            margin-top: 1px;
+        }
+
+    </style>
+</head>
+<body>
+    <marquee behaviour="scroll" direction="left" scrollamount="20" loop = "1">
+        <img src="images/sanat1.png" height="50px" >
+ </marquee>
+             
+         <div class="cap">
+             <img src="images/santacap.png" width="150px" height="150px">
+            </div>
+
+
+
+
+
+    <div id="form_wrap">
+        <div style="background-color: white; color:#f70700; width: 400px; height: 50px; text-align: center; border-radius: 0px 50px 0px 0px;">
+           <H2 style="padding-top:10px;">Registration Form</H2>
+        </div>
+    <form>
+        
+        <table>
+            <tr>
+                <td>
+                    <label>Name:</label>
+                </td>
+                <td><input type="text" placeholder="Enter your Name.." required></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Gender:</label>
+                </td>
+                <td>
+                    <input type="radio" name="gender">Male
+                     <input type="radio" name="gender">Female 
+                </td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Conatact no:</label>
+                </td>
+                <td>
+                    <input type="tel" name="contact" placeholder="Enter Phone no." required>
+                     
+                </td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Address</label>
+                </td>
+                <td>
+                    <textarea placeholder="Enter your Address"></textarea></td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>upload a file</label>
+                </td>
+                <td>
+                    <input type="file">
+                </td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr>
+                <td colspan="2" >
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+    
+</div>
+<br>
+<br>
+<br>
+<br>
+<marquee behaviour="scroll" direction="right" scrollamount="50" loop="1">
+    <img src="images/sanat2.png" >
+</marquee>
+</body>
+</html>
